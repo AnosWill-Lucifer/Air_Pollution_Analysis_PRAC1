@@ -13,9 +13,10 @@ Welcome to the Beijing Air Quality Index (AQI) Forecasting Dashboard! Dive into 
 3. [🧹 Cleaning & Preprocessing](#-cleaning--preprocessing)
 4. [🔍 Exploratory Data Analysis](#-exploratory-data-analysis)
 5. [🤖 Modeling & Prediction](#-modeling--prediction)
-6. [🖥️ Streamlit App](#-streamlit-app)
-7. [🔮 What's Next](#-whats-next)
-8. [📬 Contact](#-contact)
+6. [🖥️ Streamlit App (Local)](#-streamlit-app-local)
+7. [🔗 Live Streamlit App](#-live-streamlit-app)
+8. [🔮 What's Next](#-whats-next)
+9. [📬 Contact](#-contact)
 
 ---
 
@@ -91,7 +92,7 @@ Each CSV includes:
 
 ---
 
-## 🖥️ Streamlit App
+## 🖥️ Streamlit App (Local)
 
 Use the sidebar to explore each section:
 
@@ -108,6 +109,20 @@ git clone <repo-url>
 pip install -r requirements.txt
 python -m streamlit run app.py
 ```
+
+---
+
+## 🔗 Live Streamlit App
+
+Experience the dashboard online without any setup! 🌐
+**🔗 [View Live App on Streamlit](https://airpollutionanalysisprac1-bn7msyiywcnyidjbilrkf9.streamlit.app)**
+
+**Features Available in the Live Version:**
+
+* Interactive pollutant time-series and heatmaps
+* Real-time AQI prediction form with user inputs
+* Downloadable performance reports (CSV)
+* Responsive layout optimized for both desktop and mobile
 
 ---
 
